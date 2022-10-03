@@ -218,7 +218,7 @@ try
     %cross (script showFixationCross_SM)
    
         a=load('conditions'); %file with sequences for all pairs (e.g row 1 = pair 1, row 2 = pair 2...)
-        a.conditions= a.conditions(pairnsequenumber,:) %selection of the appropriate row in the matrix
+        a.conditions= a.conditions(pairnumber,:) %selection of the appropriate row in the matrix for the pair number ie if pair = 4, row 4 will be selected.
         b=load('SBD.mat');        
         b.SBD=b.SBD(randperm(length(b.SBD)));
         c=load('DBD.mat');
