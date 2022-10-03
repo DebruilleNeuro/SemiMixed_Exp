@@ -6,7 +6,7 @@ function SemiMixed_Main(SubjectID,sequence,pairnumber)
 
 %SCRIPT TO PRESENT THE STIMULI VISAGE TO PARTICIPANTS
 %HOW TO LAUNCH 
-%In the Command Window: write the name of the function "SemiMixed_Main(SubjectID,sequence,rand) .
+%In the Command Window: write the name of the function "SemiMixed_Main(SubjectID,sequence,pairnumber) .
 %"SubjectID" has to be replaced by the actual code of your participant,
 %"sequence" by the number of the sequence you want to show %Sequence of
 %images shown (ex sequence, 4 or 5 or 6...)
